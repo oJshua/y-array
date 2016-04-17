@@ -3,6 +3,9 @@
   "version": "8.1.2",
   "description": "Array Type for Yjs",
   "main": "./src/Array.js",
+  "browserify": {
+    "transform": ["babelify"]
+  },
   "scripts": {
     "test": "node --harmony ./node_modules/.bin/gulp test",
     "lint": "./node_modules/.bin/standard"
