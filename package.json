@@ -4,7 +4,7 @@
   "description": "Array Type for Yjs",
   "main": "./src/Array.js",
   "browserify": {
-    "transform": ["babelify"]
+    "transform": [["babelify", { "presets": ["es2015"] }]]
   },
   "scripts": {
     "test": "node --harmony ./node_modules/.bin/gulp test",
